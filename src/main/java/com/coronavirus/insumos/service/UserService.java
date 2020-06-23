@@ -1,13 +1,14 @@
-package com.coronavirus.insumos.users;
+package com.coronavirus.insumos.service;
 
 import javax.transaction.Transactional;
 
+import com.coronavirus.insumos.users.User;
+import com.coronavirus.insumos.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.coronavirus.insumos.baseClasses.BaseRepository;
-import com.coronavirus.insumos.baseClasses.BaseService;
-import com.coronavirus.insumos.users.dto.UserDto;
+import com.coronavirus.insumos.repository.BaseRepository;
+import com.coronavirus.insumos.dto.UserDto;
 
 @Transactional
 @Service

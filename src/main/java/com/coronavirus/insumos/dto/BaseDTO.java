@@ -1,4 +1,4 @@
-package com.coronavirus.insumos.baseClasses;
+package com.coronavirus.insumos.dto;
 
 public abstract class BaseDTO<T> {
 

@@ -1,6 +1,5 @@
-package com.coronavirus.insumos.users.dto;
+package com.coronavirus.insumos.dto;
 
-import com.coronavirus.insumos.baseClasses.BaseDTO;
 import com.coronavirus.insumos.users.User;
 
 public class UserDto extends BaseDTO<User> {

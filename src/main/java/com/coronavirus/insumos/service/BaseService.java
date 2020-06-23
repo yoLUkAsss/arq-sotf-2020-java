@@ -1,4 +1,7 @@
-package com.coronavirus.insumos.baseClasses;
+package com.coronavirus.insumos.service;
+
+import com.coronavirus.insumos.dto.BaseDTO;
+import com.coronavirus.insumos.repository.BaseRepository;
 
 import java.util.ArrayList;
 import java.util.List;
