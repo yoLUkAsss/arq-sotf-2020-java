@@ -1,5 +1,8 @@
 package com.coronavirus.insumos.users;
 
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public class BasicUser {
 
 	private String username;
